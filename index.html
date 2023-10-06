@@ -1,114 +1,77 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landing Page</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Federo&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="icon" type="image/x-icon" href="./favicon.ico" />
-  </head>
-  <body>
-    <div class="hero">
-      <div class="backdrop"></div>
-      <div class="navbar">
-        <div class="n1">
-          <a href="#">
-            <img
-              src="https://cdn.worldvectorlogo.com/logos/emirates-airlines-1.svg"
-            />
-          </a>
-        </div>
-        <div class="n2">
-          <ul>
-            <li>Products</li>
-            <li>About Us</li>
-            <li>Contact Us</li>
-            <li>Services</li>
-          </ul>
-        </div>
-      </div>
-      <div class="intro">
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-        <span>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum error
-          dicta sapiente omnis totam ex earum, quae laudantium dolores. Facere,
-          quas quis! Cupiditate tempora dolores sunt eligendi commodi, soluta
-          consequuntur.
-        </span>
-        <button>Explore</button>
-      </div>
-    </div>
-    <div class="part1">
-      <div class="block1">
-        <span
-          >Find your route...
-          <img
-            src="https://i.postimg.cc/dQpxt9fk/airplane.png"
-            height="100px"
-          />
-        </span>
-        <form action="">
-          <label for="cars">Start Location:</label>
-          <input type="text" name="start" id="" />
-          <label for="cars">Destination:</label>
-          <input type="text" name="destination" id="" />
-          <button>FIND ROUTES</button>
-        </form>
-      </div>
-      <div class="block2">
-        <div class="shadow"></div>
-      </div>
-    </div>
 
-    <div class="products">
-      <span>FLY WITH US </span>
-      <img
-        src="https://images.unsplash.com/photo-1526778548025-fa2f459cd5c1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1150&q=80"
-      />
-    </div>
+<head>
+  <link rel="icon" href="/assets/favicon.cf2f8945.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="/assets/favicon.cf2f8945.ico" type="image/x-icon" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Artify</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <script type="module" crossorigin src="/assets/index.accd3f27.js"></script>
+  <link rel="stylesheet" href="/assets/index.f286b6c1.css">
+</head>
 
-    <div class="aboutus">
-      <div class="back">
-        <div class="one">
-          <span>WHO ARE WE</span>
-        </div>
-        <div class="carrers">
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
-          <span>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum error
-            dicta sapiente omnis totam ex earum, quae laudantium dolores.
-            Facere, quas quis! Cupiditate tempora dolores sunt eligendi commodi,
-            soluta consequuntur.
-          </span>
-          <button>JOIN OUR CREW</button>
-        </div>
-      </div>
-    </div>
-    <div class="contactus">
-      <div class="back">
-        <span>ASSOCIATE PARTNERS</span>
-        <p>
-          <img
-            src="https://media.slbenfica.pt/-/media/benficadp/shop/produtos-2020-2021/acessorios/desporto/badge/flybetter.png?v=638000705990000000"
-            alt=""
-            srcset=""
-          />
-        </p>
-        <div class="associate">
-          <img src="https://shorturl.at/HI145" alt="" srcset="" />
-          <img src="https://shorturl.at/CLUY1" alt="" srcset="" />
-          <img src="https://shorturl.at/agqst" alt="" srcset="" />
-        </div>
-      </div>
-    </div>
-    <div class="footer">
-      <span>@ Made with ❤️ by Mithilesh Sharma </span>
-    </div>
-  </body>
+<body>
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <h1 class="title">Artify</h1>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="px-2 mb-2">
+          <button type="button" id="modern" class="nav-item btn btn-lg btn-outline-primary">Modern Art</button>
+        </li>
+        <li class="px-2 mb-2">
+          <button type="button" id="classic" class="nav-item btn btn-lg btn-outline-primary">Classic</button>
+
+        </li>
+        <li class="px-2 mb-2">
+          <button type="button" id="sculpture" class="nav-item btn btn-lg btn-outline-primary">Sculpture</button>
+
+        </li>
+        <li class="px-2 mb-2">
+          <button type="button" id="cubism" class="nav-item btn btn-lg btn-outline-primary">Cubism</button>
+
+        </li>
+        <li class="px-2 mb-2">
+          <button type="button" id="abstract" class="nav-item btn btn-lg btn-outline-primary">Abstract</button>
+
+        </li>
+
+        <button type="button" id="fav" class="btn btn-warning btn-lg">Favourites</button>
+
+      </ul>
+    </header>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+  <div id="main"></div>
+
+  
+  <script type="text/javascript">
+    function storeFavourites(e, id, url) {
+     
+      var imageFav = JSON.parse(localStorage.getItem("FavImages") || "[]");
+      imageFav.push({ id, url });
+      localStorage.setItem("FavImages", JSON.stringify(imageFav));
+    }
+    function myFunction(e, id) {
+      sessionStorage.setItem("details", id);
+      window.location.pathname = `/artdetail.html`
+    }
+  </script>
+
+
+
+</body>
+
 </html>
